@@ -1,1 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <h1>🌱 Agro Forte, Futuro Sustentável</h1>
+        <p>Produção agrícola e preservação ambiental caminhando juntas.</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#praticas">Práticas Sustentáveis</a>
+        <a href="#impacto">Impacto</a>
+        <a href="#quiz">Quiz</a>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Produzir Mais, Preservar Melhor</h2>
+            <button onclick="mostrarMensagem()">Saiba Mais</button>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2>🌾 O Agro e o Meio Ambiente</h2>
+        <p>
+            A agricultura moderna busca aumentar a produtividade sem comprometer os recursos naturais,
+            garantindo alimento para as futuras gerações.
+        </p>
+    </section>
+
+    <section id="praticas">
+        <h2>♻️ Práticas Sustentáveis</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Plantio Direto</h3>
+                <p>Reduz a erosão e preserva a qualidade do solo.</p>
+            </div>
+
+            <div class="card">
+                <h3>Uso Racional da Água</h3>
+                <p>Economia de recursos hídricos através da irrigação inteligente.</p>
+            </div>
+
+            <div class="card">
+                <h3>Energia Renovável</h3>
+                <p>Utilização de energia solar e biomassa nas propriedades rurais.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="impacto">
+        <h2>📊 Benefícios da Sustentabilidade</h2>
+
+        <div class="contador">
+            <div>
+                <span id="solo">0</span>
+                <p>% Menos Erosão</p>
+            </div>
+
+            <div>
+                <span id="agua">0</span>
+                <p>% Economia de Água</p>
+            </div>
+
+            <div>
+                <span id="carbono">0</span>
+                <p>% Redução de Carbono</p>
+            </div>
+        </div>
+
+        <button onclick="animarContadores()">Mostrar Resultados</button>
+    </section>
+
+    <section id="quiz">
+        <h2>🧠 Quiz Sustentável</h2>
+
+        <p>Qual prática ajuda a preservar o solo?</p>
+
+        <button onclick="verificarResposta('certa')">Plantio Direto</button>
+        <button onclick="verificarResposta('errada')">Desmatamento</button>
+
+        <p id="resultado"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 - Agro Forte, Futuro Sustentável</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
